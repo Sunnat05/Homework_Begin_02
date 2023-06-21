@@ -4,5 +4,6 @@ x2=float(input())
 y2=float(input())
 a=abs(x1-x2)
 b=abs(y1-y2)
+P=2*(a+b)
 S=a*b
-print(S)
+print(P,S)
