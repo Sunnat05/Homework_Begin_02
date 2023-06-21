@@ -1,6 +1,5 @@
-R1=int(input())
-R2=int(input())
-R1>R2
+R1=float(input())
+R2=float(input())
 п=float(input())
 S1=п*R1**2
 S2=п*R2**2
