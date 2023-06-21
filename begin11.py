@@ -1,0 +1,10 @@
+a=float(input())
+b=float(input())
+sum=a+b
+difference=a-b
+product=a*b
+quotient=a/b
+print(abs(sum))
+print(abs(difference))
+print(abs(product))
+print(abs(quotient))
