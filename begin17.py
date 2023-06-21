@@ -1,0 +1,9 @@
+A=float(input())
+B=float(input())
+C=float(input())
+AC=C-A
+BC=C-B
+sum=abs(AC+BC)
+print(abs(AC))
+print(abs(BC))
+print(sum)
