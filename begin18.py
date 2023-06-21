@@ -1,0 +1,13 @@
+x1=float(input())
+y1=float(input())
+x2=float(input())
+y2=float(input())
+CX=(x1+x2)/2
+CY=(y1+y2)/2
+ACX=abs(CX-x1)
+ACY=abs(CY-y1)
+BCX=abs(CX-x2)
+BCY=abs(CY-y2)
+AC=(ACX**2+ACY**2)**(1/2)
+BC=(BCX**2+BCY**2)**(1/2)
+print(AC*BC)
