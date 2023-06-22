@@ -1,10 +1,7 @@
 a=float(input())
 b=float(input())
-sum=a+b
-difference=a-b
-product=a*b
-quotient=a/b
-print(abs(sum))
-print(abs(difference))
-print(abs(product))
-print(abs(quotient))
+sum=abs(a+b)
+difference=abs(a-b)
+product=abs(a*b)
+quotient=abs(a/b)
+print(sum,difference,product,quotient)
